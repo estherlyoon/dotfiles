@@ -27,5 +27,5 @@ stow tmux
 bash zsh-deps.sh
 
 # Change default shell to zsh
-sudo chsh -s $(which zsh)
+sudo usermod -s $(which zsh) $USER
 zsh
